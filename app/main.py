@@ -25,7 +25,7 @@ app = FastAPI(lifespan=lifespan)
 
 app.add_middleware(SecurityHeadersMiddleware)
 
-app.include_router(health_router, prefix="/api/v1", tags=["Health"])
+# app.include_router(health_router, prefix="/api/v1", tags=["Health"])
 app.include_router(user_router, prefix="/api/v1", tags=["User"])
 app.include_router(auth_router, prefix="/api/v1", tags=["Auth"])
 
