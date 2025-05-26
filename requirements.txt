@@ -1,0 +1,17 @@
+asyncpg==0.30.0
+fastapi==0.115.12
+passlib==1.7.4
+pydantic==2.11.5
+redis==6.1.0
+SQLAlchemy==2.0.41
+starlette==0.46.2
+typing_extensions==4.13.2
+uvicorn==0.34.2
+pydantic-settings>=2.0
+pydantic[email]
+redis[async]
+loguru==0.7.2
+pytest
+pytest-asyncio
+httpx
+bcrypt<4.0.0
